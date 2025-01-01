@@ -1,0 +1,34 @@
+.section {
+  background-color: black;
+
+  padding: 0.5px;
+}
+.text-white {
+  color: #fff;
+  text-align: center;
+}
+
+.grid {
+  width: 100%;
+  margin-top: 45px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.above-grid {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  margin: auto;
+}
+/* .hover-class:hover{
+
+} */
